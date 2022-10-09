@@ -25,7 +25,7 @@ namespace ApiCalculo.Controllers
             if(campanha == null || contrato == null)
                 return NotFound();
 
-            var diasAtraso =  (int)contrato.DataVencimento.Subtract(DateTime.Today).TotalDay;
+            //var diasAtraso =  (int)contrato.DataVencimento.Subtract(DateTime.Today).TotalDay;
             
 
             return Ok();
